@@ -28,6 +28,11 @@ main{max-width:var(--maxw);margin:0 auto;padding:6px 20px 60px}
 .alert li{margin:3px 0;font-size:14px}
 .alert.quiet{background:var(--surface);border-color:var(--line)}
 .alert.quiet p{margin:6px 0;color:var(--muted);font-size:14px}
+.alert strong{color:var(--hot)}
+ul.sigs{list-style:none;padding:0;margin:2px 0 4px}
+ul.sigs li{margin:8px 0;font-size:14px;line-height:1.65}
+.sg-k{font-weight:700;color:var(--hot);margin-right:8px}
+.sg-t{color:var(--ink)}
 
 /* 卡片网格 */
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
