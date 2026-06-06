@@ -1,0 +1,7 @@
+# 数据/日志不入库，仓库只保留 docs/ 网站
+data/
+logs/
+.env
+__pycache__/
+*.pyc
+.DS_Store
